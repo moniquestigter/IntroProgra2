@@ -3,24 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Introduction;
+package Introduction.IntroProgra2;
 
 
 public class Alumno {
     //atributos
     private String nombre;
+    private double av;
     
-    //constructor
+    //constructores
     public Alumno(String nombre){
         this.nombre = nombre;
     }
-    
     //funciones
     public String getNombre(){
         return nombre;
     }
     public String setNombre(String nombre){
         return nombre;
+    }
+    public double getPromedio(){
+        return av;
     }
     
     public void print(){

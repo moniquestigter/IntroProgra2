@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Introduction;
+package Introduction.IntroProgra2;
 
 import java.util.ArrayList;
 
